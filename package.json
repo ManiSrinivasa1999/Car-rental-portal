@@ -1,0 +1,26 @@
+{
+  "name": "car-rental-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManiSrinivasa1999/Car-rental-portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManiSrinivasa1999/Car-rental-portal/issues"
+  },
+  "homepage": "https://github.com/ManiSrinivasa1999/Car-rental-portal#readme",
+  "dependencies": {
+    "eslinter": "^3.2.1",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
