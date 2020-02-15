@@ -10,17 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/ManiSrinivasa1999/Car-rental-portal.git"
   },
-  "author": "",
+  "author": "Mani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ManiSrinivasa1999/Car-rental-portal/issues"
   },
   "homepage": "https://github.com/ManiSrinivasa1999/Car-rental-portal#readme",
-  "dependencies": {
-    "eslinter": "^3.2.1",
-    "typescript": "^3.7.5"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.19.2",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.5"
   }
 }

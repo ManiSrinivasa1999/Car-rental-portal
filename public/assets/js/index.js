@@ -1,17 +1,17 @@
-(document.onreadystatechange = function () {
+(document.onreadystatechange = () => {
     if (document.readyState === 'complete') {
-        var MODEL = {};
-        var VIEW_1 = {
-            render: function () {
+        const MODEL = {};
+        const VIEW = {
+            render: () => {
             },
-            init: function () {
-                VIEW_1.render();
-            }
+            init: () => {
+                VIEW.render();
+            },
         };
-        var CONTROLLER = {
-            init: function () {
-                VIEW_1.init();
-            }
+        const CONTROLLER = {
+            init: () => {
+                VIEW.init();
+            },
         };
         CONTROLLER.init();
     }
