@@ -30,12 +30,9 @@
           <!-- navbar items -->
         </div>    
         <div class="navbar-end">
-          <!-- navbar items -->
-          <ul>
-            <li>
-              <a href=""></a>
-            </li>
-          </ul>
+          <div class="signup-login">
+            <button class="button is-dark is-rounded">Signup/Login</button>
+          </div>
         </div>
       </div>
     </nav>
@@ -43,6 +40,33 @@
       Start page- 
       Form to search cars for his/her checkout and checkin
       -->
+    <section class="section">
+      <form class="form" id="form">
+        <div class="field">
+          <div class="checkin">
+            <label class="label">Check-in</label>
+            <div class="control has-icons-left">
+              <input class="input" type="date">
+              <span class="icon is-small is-left">
+                <i class="far fa-calendar-alt"></i>
+              </span>
+            </div>
+          </div>
+          <div class="checkout">
+            <label class="label">Check-out</label>
+            <div class="control has-icons-left">
+              <input class="input" type="date">
+              <span class="icon is-small is-left">
+                <i class="far fa-calendar-alt"></i>
+              </span>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="button is-dark">Search</button>
+          </div>
+        </div>
+      </form>
+    </section>
     <link rel="stylesheet" href="assets/style.css">
     <script src="assets/js/index.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
